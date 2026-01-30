@@ -1,0 +1,132 @@
+/* Glassy Component Styles */
+.url-form-container {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.url-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media (min-width: 640px) {
+    .input-group {
+        flex-direction: row;
+    }
+}
+
+.url-input {
+    flex-grow: 1;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+    outline: none;
+}
+
+.url-input:focus {
+    border-color: #3b82f6;
+}
+
+.shorten-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.shorten-btn:hover {
+    background-color: #2563eb;
+}
+
+.shorten-btn:disabled {
+    background-color: #64748b;
+    cursor: not-allowed;
+}
+
+.error-msg {
+    color: #ef4444;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.result-container {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #334155;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.success-label {
+    text-align: center;
+    color: #94a3b8;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.short-url-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0f172a;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #334155;
+}
+
+.short-url-box a {
+    color: #3b82f6;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 1rem;
+}
+
+.copy-btn {
+    background: transparent;
+    color: #94a3b8;
+    border: 1px solid #475569;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    transition: all 0.2s;
+}
+
+.copy-btn:hover {
+    color: white;
+    border-color: #94a3b8;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
