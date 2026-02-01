@@ -13,7 +13,7 @@ const Home = () => {
                 fontSize: '3rem',
                 fontWeight: '800',
                 background: 'linear-gradient(to right, #3b82f6, #8b5cf6)',
-                WebkitBackdropClip: 'text',
+                WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 marginBottom: '2rem',
                 textAlign: 'center',
@@ -22,8 +22,8 @@ const Home = () => {
             </h1>
             <p style={{ 
                 marginBottom: '2rem',
-                color: '#555',
-                fontSize: '1.2rem',
+                color: '#94a3b8',
+                fontSize: '1.1rem',
                 textAlign: 'center',
                 maxWidth: '400px',
                 }}>
