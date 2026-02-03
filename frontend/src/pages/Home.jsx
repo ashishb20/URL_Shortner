@@ -30,6 +30,7 @@ const Home = () => {
                     Shorten your long URLs with ease
             </p>
             <UrlForm />
+            <footer style={{ marginTop: '3rem', color: '#94a3b8' }}>Made with ❤️ by <strong>Ashish Bairwa</strong></footer>
         </div>
     );
 };
