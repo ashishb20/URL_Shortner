@@ -10,8 +10,12 @@
 
 ## Demos
 ### Images
+<img width="740" height="684" alt="Image" src="https://github.com/user-attachments/assets/49367be5-5086-493c-8104-59c51cf5e92d" />
+
 
 ### Video
+https://github.com/user-attachments/assets/1d009d9c-e45d-4d56-819e-835c1265003c
+
 
 ## System Architecture
 The application checks for existing URLs, generates a unique key using a non-sequential robust algorithm (`nanoid`), validates the input, and stores the mapping in a high-availability MangoDB cluster
