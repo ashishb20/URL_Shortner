@@ -8,6 +8,11 @@
 - **Copy-to-clipboard**: For quick sharing.
 - **Responsive Design** : Mobile compatible UI.
 
+## Demos
+### Images
+
+### Video
+
 ## System Architecture
 The application checks for existing URLs, generates a unique key using a non-sequential robust algorithm (`nanoid`), validates the input, and stores the mapping in a high-availability MangoDB cluster
 **Data flow:**
